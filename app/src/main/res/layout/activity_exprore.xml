@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/it_running"
+    tools:context=".ExproreActivity">
+
+    <Button
+        android:id="@+id/Btn_Exprore_Back"
+        android:background="@android:color/transparent"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="311dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/Btn_Exprore_End"
+        android:text="탐사종료"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="120dp"/>
+
+
+</FrameLayout>

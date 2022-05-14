@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/get_set"
+    tools:context=".Space_Station_Activity">
+
+    <Button
+        android:id="@+id/Btn_Station_Back"
+        android:background="@android:color/transparent"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="311dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/Btn_Station_Studian"
+        android:background="@android:color/transparent"
+        android:layout_width="230dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="22dp" />
+
+    <Button
+        android:id="@+id/Btn_Station_Undefined"
+        android:background="@android:color/transparent"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="200dp" />
+
+    <Button
+        android:id="@+id/Btn_Station_Start"
+        android:background="@android:color/transparent"
+        android:layout_width="330dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="40dp" />
+
+
+</FrameLayout>

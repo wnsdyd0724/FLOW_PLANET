@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_exprore.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_exprore_end.xml" value="0.20675675675675675" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_library.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_menu.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_reward.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_space_station.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_statistics.xml" value="0.25193998965338854" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_statistics_day.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_statistics_month.xml" value="0.2" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_statistics_week.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/activity_studian.xml" value="0.21936936936936938" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/layout/actvity_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/Android/FLOW_PLANET_LAYOUT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1605" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
