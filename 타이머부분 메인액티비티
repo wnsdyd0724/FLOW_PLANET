@@ -1,0 +1,51 @@
+package com.example.timepickertimer
+
+import android.graphics.Color
+import android.os.Bundle
+import android.os.SystemClock
+import android.view.View
+import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
+
+
+class MainActivity : AppCompatActivity() {
+    var btnEnd: Button? = null
+    var rdoTime: RadioButton? = null
+    var tPicker: TimePicker? = null
+    var tvHour: TextView? = null
+    var tvMinute: TextView? = null
+    public override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        title = "공부 집중앱"
+
+        // 버튼
+        btnEnd = findViewById<View>(R.id.btnEnd) as Button
+
+        rdoTime = findViewById<View>(R.id.rdoTime) as RadioButton
+
+        // FrameLayout의 2개 위젯
+        tPicker = findViewById<View>(R.id.timePicker1) as TimePicker
+
+        tvHour = findViewById<View>(R.id.tvHour) as TextView
+        tvMinute = findViewById<View>(R.id.tvMinute) as TextView
+
+        // 처음에는 2개를 안보이게 설정
+        tPicker!!.visibility = View.INVISIBLE
+        rdoTime!!.setOnClickListener {
+            tPicker!!.visibility = View.VISIBLE
+        }
+
+        // 버튼을 클릭하면 날짜,시간을 가져온다.
+        btnEnd!!.setOnClickListener {
+
+
+            /*맨 아래 텍스트뷰에 타임피커로부터 가져온 시간과 분 표시.
+             tPicker.getHour 자동완성 뜨는 것 보면 이것이 정수형(int)임을 알 수 있으므로
+            정수형을 문자열로 바꿔주는 Integer.toString을 사용하기*/tvHour!!.text = Integer.toString(
+            tPicker!!.hour
+        )
+            tvMinute!!.text = Integer.toString(tPicker!!.minute)
+        }
+    }
+}
